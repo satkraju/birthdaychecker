@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -6,19 +6,34 @@
 <title>Birthday Calculator – Age, Countdown, Zodiac, Famous Birthdays & Fun Facts</title>
 <meta name="description" content="Free birthday calculator: exact age, live countdown to next birthday, day you were born, zodiac sign, birthstone, birth flower, Chinese zodiac, famous people who share your birthday, and fun life stats.">
 <link rel="canonical" href="https://birthdaychecker.com/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#127874;</text></svg>">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
 <meta property="og:title" content="Birthday Calculator – Age, Countdown, Zodiac & Famous Birthdays">
 <meta property="og:description" content="Enter your birth date: get your exact age, birthday countdown, zodiac sign, birthstone, famous people who share your birthday, life stats & more — all free and instant.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://birthdaychecker.com/">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://birthdaychecker.com/OG.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Birthday Calculator – Age, Zodiac, Famous Birthdays">
+<meta property="og:site_name" content="BirthdayChecker.com">
+<meta name="twitter:image" content="https://birthdaychecker.com/OG.png">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Birthday Calculator – Age, Zodiac, Countdown & Famous Birthdays">
 <meta name="twitter:description" content="Discover your exact age, birthday countdown, zodiac sign, birthstone, and famous people who share your birthday — free!">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <meta name="keywords" content="birthday calculator, age calculator, how old am I, days until my birthday, what day was I born, zodiac sign calculator, birthstone by month, famous birthdays, what generation am I, chinese zodiac, life path number, birthday countdown, how many days have I been alive, birth flower">
 <meta name="author" content="BirthdayChecker.com">
+<!-- GA4: replace G-XXXXXXXXXX at analytics.google.com -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+<!-- Clarity: replace xxxxxxxx at clarity.microsoft.com -->
+<script>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","xxxxxxxx");</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"BirthdayChecker.com","url":"https://birthdaychecker.com","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://birthdaychecker.com/?d={birth_date}"},"query-input":"required name=birth_date"}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Organization","name":"BirthdayChecker.com","url":"https://birthdaychecker.com","logo":"https://birthdaychecker.com/logo.png","contactPoint":{"@type":"ContactPoint","email":"support@birthdaychecker.com","contactType":"customer support"},"sameAs":["https://birthdaychecker.com"]}
+{"@context":"https://schema.org","@type":"Organization","name":"BirthdayChecker.com","url":"https://birthdaychecker.com","logo":"https://birthdaychecker.com/OG.png","contactPoint":{"@type":"ContactPoint","email":"support@birthdaychecker.com","contactType":"customer support"},"sameAs":["https://birthdaychecker.com"]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"HowTo","name":"How to Use the Birthday Calculator","description":"Calculate your exact age, zodiac sign, birthstone, famous birthdays, and more in seconds.","totalTime":"PT30S","step":[{"@type":"HowToStep","position":"1","name":"Enter Your Date of Birth","text":"Click the date input field and type or select your full birth date (month, day, year)."},{"@type":"HowToStep","position":"2","name":"Click Calculate","text":"Press the blue 'Calculate →' button or press Enter on your keyboard."},{"@type":"HowToStep","position":"3","name":"Explore Your 11 Birthday Cards","text":"Instantly see your exact age, live birthday countdown, day you were born, zodiac sign, Chinese zodiac, birthstone, generation, life path number, life stats, famous birthdays, and historical events on your day."},{"@type":"HowToStep","position":"4","name":"Share Your Results","text":"Click 'Copy & Share My Birthday Stats' to copy a shareable text summary to your clipboard and post it anywhere."}]}
@@ -155,6 +170,7 @@ header .sub{font-size:1.05rem;opacity:.88;max-width:580px;margin:0 auto}
 .fa{padding:0 20px;max-height:0;overflow:hidden;transition:max-height .3s ease,padding .3s ease;font-size:.88rem;color:var(--muted);line-height:1.7}
 .fa.open{padding:0 20px 16px;max-height:400px}
 
+.site-nav{background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;padding:0 20px}.site-nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:4px;max-width:920px;margin:0 auto;padding:8px 0}.site-nav a{text-decoration:none;color:var(--muted);font-size:.82rem;font-weight:600;padding:5px 10px;border-radius:20px;transition:background .15s,color .15s;white-space:nowrap}.site-nav a:hover,.site-nav a:focus{background:var(--bg);color:var(--p)}.share{text-align:center;margin:4px 0 44px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap}.btn-sh{padding:12px 20px;border:none;border-radius:10px;font-weight:700;cursor:pointer;font-size:.88rem;transition:transform .15s;text-decoration:none;display:inline-flex;align-items:center;gap:6px;background:var(--gold);color:#1a1a2e}.btn-sh:hover{transform:translateY(-2px)}.btn-tw{background:#000;color:#fff}.btn-wa{background:#25D366;color:#fff}.btn-url{background:var(--p);color:#fff}.shared-banner{background:linear-gradient(135deg,#fff8e1,#fffde7);border:2px solid var(--gold);border-radius:var(--r);padding:16px 20px;max-width:660px;margin:20px auto 0;text-align:center;font-size:.9rem;color:#7a5200;display:none}.footer-links{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 20px;margin-bottom:16px}
 /* FOOTER */
 footer{background:#1a1a2e;color:rgba(255,255,255,.55);text-align:center;padding:32px 20px;font-size:.82rem}
 footer a{color:rgba(255,255,255,.55);text-decoration:none}
@@ -170,22 +186,17 @@ footer a:hover{color:#fff}
 </head>
 <body>
 
+<nav class="site-nav" aria-label="Site navigation"><ul><li><a href="#calculator">&#127874; Calculator</a></li><li><a href="#zodiac-section">Zodiac</a></li><li><a href="#birthstones-section">Birthstones</a></li><li><a href="#generations-section">Generations</a></li><li><a href="#chinese-zodiac-section">Chinese Zodiac</a></li><li><a href="#milestone-section">Milestones</a></li><li><a href="#rare-birthdays-section">Rare Birthdays</a></li><li><a href="#gift-section">Gifts</a></li><li><a href="#faq-section">FAQ</a></li></ul></nav>
+<div class="shared-banner" id="sharedBanner">Someone shared their birthday results! Enter <strong>your</strong> birthday above to discover yours.</div>
 <header>
   <h1>🎂 Birthday Calculator</h1>
   <p class="sub">Age · Countdown · Day Born · Zodiac · Birthstone · Famous Birthdays · Life Stats — all free, all instant.</p>
 </header>
 
-<div class="calc-wrap">
+<div class="calc-wrap" id="calculator">
   <div class="calc-card">
     <h2>Enter Your Date of Birth</h2>
-    <div class="irow">
-      <div style="flex:1">
-        <label for="bd">Date of Birth</label>
-        <input type="date" id="bd" max="">
-      </div>
-      <button class="btn" onclick="calc()">Calculate →</button>
-    </div>
-    <p id="err">Please enter a valid birth date in the past.</p>
+    <form id="calcForm" onsubmit="calc(event)" aria-label="Birthday calculator"><div class="irow"><div style="flex:1"><label for="bd">Date of Birth</label><input type="date" id="bd" name="birthday" autocomplete="bday" required></div><button type="submit" class="btn">Calculate &#8594;</button></div><p id="err" role="alert">Please enter a valid birth date in the past.</p></form>
   </div>
 </div>
 
@@ -197,15 +208,13 @@ footer a:hover{color:#fff}
     <div class="bday-line" id="bdLine"></div>
   </div>
   <div class="grid" id="grid"></div>
-  <div class="share">
-    <button class="btn-sh" onclick="share()">📋 Copy &amp; Share My Birthday Stats</button>
-  </div>
+  <div class="share"><button class="btn-sh" onclick="copyStats()">&#128203; Copy Stats</button><button class="btn-sh btn-url" onclick="copyLink()">&#128279; Share Link</button><a class="btn-sh btn-tw" id="twitterShare" href="#" target="_blank" rel="noopener noreferrer">Share on X</a><a class="btn-sh btn-wa" id="whatsappShare" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
 </section>
 
 <!-- CONTENT -->
 <div class="wrap">
 
-  <div class="sec">
+  <div class="sec" id="zodiac-section">
     <h2>Western Zodiac Signs by Birthday</h2>
     <p>Your Western (tropical) zodiac sign is determined by the position of the Sun on your birth date. Each of the 12 signs spans roughly 30 days and is associated with distinct personality traits, ruling planets, and elements.</p>
     <div class="zgrid">
@@ -224,7 +233,7 @@ footer a:hover{color:#fff}
     </div>
   </div>
 
-  <div class="sec">
+  <div class="sec" id="birthstones-section">
     <h2>Birthstones by Month</h2>
     <p>Birthstones date back to ancient times — rooted in the biblical Breastplate of Aaron's twelve gems. The modern list was standardized by the American National Retail Jewelers Association in 1912. Each stone carries traditional symbolic meaning and is a popular birthday gift.</p>
     <div class="bgrid">
@@ -262,7 +271,7 @@ footer a:hover{color:#fff}
     </div>
   </div>
 
-  <div class="sec">
+  <div class="sec" id="generations-section">
     <h2>Generations by Birth Year</h2>
     <p>Generational labels help sociologists track cohorts shaped by shared historical events, technology, and cultural shifts. Each generation has distinct values, communication styles, and life experiences.</p>
     <div class="ggrid">
@@ -306,7 +315,7 @@ footer a:hover{color:#fff}
   </div>
 
   <!-- CHINESE ZODIAC CHART -->
-  <div class="sec">
+  <div class="sec" id="chinese-zodiac-section">
     <h2>Chinese Zodiac Years Chart (1924–2036)</h2>
     <p>The Chinese zodiac assigns an animal to each year in a 12-year repeating cycle. Your animal is determined by your birth year — though traditional Chinese astrology also considers your birth month and hour for deeper readings. Find your year below.</p>
     <div style="overflow-x:auto;margin-top:14px">
@@ -318,7 +327,7 @@ footer a:hover{color:#fff}
   </div>
 
   <!-- MILESTONE BIRTHDAYS -->
-  <div class="sec">
+  <div class="sec" id="milestone-section">
     <h2>Milestone Birthdays: What Each Age Means</h2>
     <p>Certain birthdays carry cultural, legal, and symbolic weight across the world. Here's what each major milestone birthday represents.</p>
     <div class="ggrid" style="grid-template-columns:repeat(auto-fill,minmax(220px,1fr))">
@@ -335,7 +344,7 @@ footer a:hover{color:#fff}
   </div>
 
   <!-- RAREST / MOST COMMON BIRTHDAYS -->
-  <div class="sec">
+  <div class="sec" id="rare-birthdays-section">
     <h2>The Rarest and Most Common Birthdays</h2>
     <p>Not all birthdays are equally common. US birth data spanning millions of births reveals clear patterns in when people are born — driven by holidays, conception timing, and hospital scheduling practices.</p>
     <h3>Most Common Birthdays (USA)</h3>
@@ -354,7 +363,7 @@ footer a:hover{color:#fff}
   </div>
 
   <!-- GIFT GUIDE -->
-  <div class="gift">
+  <div class="gift" id="gift-section">
     <h2>🎁 Birthday Gift Ideas by Age</h2>
     <p>Shopping for a birthday gift? Browse curated ideas for every milestone — available on Amazon with fast shipping.</p>
     <div class="ggd" id="giftGrid">
@@ -370,28 +379,28 @@ footer a:hover{color:#fff}
   </div>
 
   <!-- FAQ -->
-  <div class="sec">
+  <div class="sec" id="faq-section">
     <h2>Frequently Asked Questions</h2>
-    <div class="faq"><div class="fq" onclick="faq(this)">How many days until my birthday? <span class="arr">▼</span></div><div class="fa">Enter your birth date above and our live countdown shows the exact number of days, hours, minutes, and seconds until your next birthday — updated every second.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What day of the week was I born? <span class="arr">▼</span></div><div class="fa">Our calculator determines the exact day of the week — Sunday through Saturday — for any date. Enter your birthday and see "Day Born" in the results. Monday babies are said to be "fair of face" according to the old nursery rhyme.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What is my zodiac sign? <span class="arr">▼</span></div><div class="fa">Aries (Mar 21–Apr 19) · Taurus (Apr 20–May 20) · Gemini (May 21–Jun 20) · Cancer (Jun 21–Jul 22) · Leo (Jul 23–Aug 22) · Virgo (Aug 23–Sep 22) · Libra (Sep 23–Oct 22) · Scorpio (Oct 23–Nov 21) · Sagittarius (Nov 22–Dec 21) · Capricorn (Dec 22–Jan 19) · Aquarius (Jan 20–Feb 18) · Pisces (Feb 19–Mar 20).</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What generation am I? <span class="arr">▼</span></div><div class="fa">Silent Generation (1928–1945) · Baby Boomers (1946–1964) · Generation X (1965–1980) · Millennials (1981–1996) · Generation Z (1997–2012) · Generation Alpha (2013–present). The calculator identifies your generation automatically.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What is my birthstone? <span class="arr">▼</span></div><div class="fa">January: Garnet · February: Amethyst · March: Aquamarine · April: Diamond · May: Emerald · June: Pearl · July: Ruby · August: Peridot · September: Sapphire · October: Opal · November: Topaz · December: Blue Topaz. Your birthstone is shown automatically after you calculate.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What is my Chinese zodiac animal? <span class="arr">▼</span></div><div class="fa">The Chinese zodiac repeats every 12 years through 12 animals: Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pig. Enter your birth year and the calculator shows your animal plus the year characteristics.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">How many days have I been alive? <span class="arr">▼</span></div><div class="fa">Our calculator shows your exact total days lived, plus estimated heartbeats (based on ~75 bpm average) and breaths (based on ~16 breaths/min average) since birth. A 30-year-old has lived roughly 10,950 days and experienced over 1.2 billion heartbeats.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What is my life path number? <span class="arr">▼</span></div><div class="fa">In numerology, your life path number is calculated by summing all digits of your full birth date (MMDDYYYY) and reducing to a single digit — unless you reach 11, 22, or 33 (master numbers). For example: born May 14, 1990 → 0+5+1+4+1+9+9+0 = 29 → 2+9 = 11 (master number).</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What famous people share my birthday? <span class="arr">▼</span></div><div class="fa">Enter your birth date to see celebrities, athletes, scientists, historical figures, and world leaders who share your exact birth month and day. Over 200 famous dates are included in our database.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What is my birth flower? <span class="arr">▼</span></div><div class="fa">January: Carnation · February: Violet · March: Daffodil · April: Daisy · May: Lily of the Valley · June: Rose · July: Larkspur · August: Gladiolus · September: Aster · October: Marigold · November: Chrysanthemum · December: Narcissus. Your birth flower appears automatically in your results.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">How do I calculate my exact age in years, months and days? <span class="arr">▼</span></div><div class="fa">Subtract your birth year, month, and day from today's date — accounting for whether your birthday has passed this year. Our calculator handles all edge cases including leap years and month-length differences, and shows your exact age in years, months, and days instantly.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What is the most common birthday? <span class="arr">▼</span></div><div class="fa">September 9th is the most common birthday in the United States, followed by September 19th and September 12th. The entire month of September is the most common birth month — a result of conception peaking during the December holiday season, roughly 9 months earlier.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What is the rarest birthday? <span class="arr">▼</span></div><div class="fa">February 29 (Leap Day) is the rarest birthday — it only occurs once every 4 years. December 25, January 1, December 24, and July 4 are also among the rarest birthdays due to hospital holiday scheduling practices.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What season was I born in? <span class="arr">▼</span></div><div class="fa">Northern Hemisphere: Winter (Dec 21–Mar 19), Spring (Mar 20–Jun 20), Summer (Jun 21–Sep 21), Autumn (Sep 22–Dec 20). Southern Hemisphere seasons are reversed. Enter your birth date above to see your birth season automatically.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What is a half birthday and when is mine? <span class="arr">▼</span></div><div class="fa">A half birthday falls exactly 6 months after your actual birthday. If your birthday is March 15, your half birthday is September 15. Half birthdays are popular for children born in summer whose school birthday falls during holidays. Add 6 months to your birth date to find yours.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">How many minutes until my birthday? <span class="arr">▼</span></div><div class="fa">Our live countdown shows days, hours, minutes, and seconds until your next birthday — updated every second. For total minutes, multiply the days remaining by 1,440 and add hours × 60 plus the minutes shown in the countdown.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">What element is my zodiac sign? <span class="arr">▼</span></div><div class="fa">Fire signs (Aries, Leo, Sagittarius) — passionate, energetic, bold. Earth signs (Taurus, Virgo, Capricorn) — practical, grounded, reliable. Air signs (Gemini, Libra, Aquarius) — intellectual, communicative, social. Water signs (Cancer, Scorpio, Pisces) — emotional, intuitive, empathetic.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">Are zodiac and astrology results accurate? <span class="arr">▼</span></div><div class="fa">Astrology, zodiac signs, numerology, and personality readings on this site are for entertainment and cultural interest only. There is no scientific consensus that birth date determines personality or future outcomes. These traditions have cultural and historical value but should not be used for serious life decisions.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">Is this birthday calculator free to use? <span class="arr">▼</span></div><div class="fa">Yes — completely free with no sign-up, no account, no app download, and no fees. All calculations run instantly in your browser. We earn a small affiliate commission on Amazon gift purchases, which helps keep the site free for everyone.</div></div>
-    <div class="faq"><div class="fq" onclick="faq(this)">Does this birthday calculator store my data? <span class="arr">▼</span></div><div class="fa">No. All calculations happen entirely in your browser — your birth date is never sent to any server, stored in a database, or shared with third parties. The only data we collect is standard anonymous website analytics. See our Privacy Policy for full details.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">How many days until my birthday? <span class="arr">▼</span></div><div class="fa">Enter your birth date above and our live countdown shows the exact number of days, hours, minutes, and seconds until your next birthday — updated every second.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What day of the week was I born? <span class="arr">▼</span></div><div class="fa">Our calculator determines the exact day of the week — Sunday through Saturday — for any date. Enter your birthday and see "Day Born" in the results. Monday babies are said to be "fair of face" according to the old nursery rhyme.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What is my zodiac sign? <span class="arr">▼</span></div><div class="fa">Aries (Mar 21–Apr 19) · Taurus (Apr 20–May 20) · Gemini (May 21–Jun 20) · Cancer (Jun 21–Jul 22) · Leo (Jul 23–Aug 22) · Virgo (Aug 23–Sep 22) · Libra (Sep 23–Oct 22) · Scorpio (Oct 23–Nov 21) · Sagittarius (Nov 22–Dec 21) · Capricorn (Dec 22–Jan 19) · Aquarius (Jan 20–Feb 18) · Pisces (Feb 19–Mar 20).</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What generation am I? <span class="arr">▼</span></div><div class="fa">Silent Generation (1928–1945) · Baby Boomers (1946–1964) · Generation X (1965–1980) · Millennials (1981–1996) · Generation Z (1997–2012) · Generation Alpha (2013–present). The calculator identifies your generation automatically.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What is my birthstone? <span class="arr">▼</span></div><div class="fa">January: Garnet · February: Amethyst · March: Aquamarine · April: Diamond · May: Emerald · June: Pearl · July: Ruby · August: Peridot · September: Sapphire · October: Opal · November: Topaz · December: Blue Topaz. Your birthstone is shown automatically after you calculate.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What is my Chinese zodiac animal? <span class="arr">▼</span></div><div class="fa">The Chinese zodiac repeats every 12 years through 12 animals: Rat, Ox, Tiger, Rabbit, Dragon, Snake, Horse, Goat, Monkey, Rooster, Dog, Pig. Enter your birth year and the calculator shows your animal plus the year characteristics.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">How many days have I been alive? <span class="arr">▼</span></div><div class="fa">Our calculator shows your exact total days lived, plus estimated heartbeats (based on ~75 bpm average) and breaths (based on ~16 breaths/min average) since birth. A 30-year-old has lived roughly 10,950 days and experienced over 1.2 billion heartbeats.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What is my life path number? <span class="arr">▼</span></div><div class="fa">In numerology, your life path number is calculated by summing all digits of your full birth date (MMDDYYYY) and reducing to a single digit — unless you reach 11, 22, or 33 (master numbers). For example: born May 14, 1990 → 0+5+1+4+1+9+9+0 = 29 → 2+9 = 11 (master number).</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What famous people share my birthday? <span class="arr">▼</span></div><div class="fa">Enter your birth date to see celebrities, athletes, scientists, historical figures, and world leaders who share your exact birth month and day. Over 200 famous dates are included in our database.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What is my birth flower? <span class="arr">▼</span></div><div class="fa">January: Carnation · February: Violet · March: Daffodil · April: Daisy · May: Lily of the Valley · June: Rose · July: Larkspur · August: Gladiolus · September: Aster · October: Marigold · November: Chrysanthemum · December: Narcissus. Your birth flower appears automatically in your results.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">How do I calculate my exact age in years, months and days? <span class="arr">▼</span></div><div class="fa">Subtract your birth year, month, and day from today's date — accounting for whether your birthday has passed this year. Our calculator handles all edge cases including leap years and month-length differences, and shows your exact age in years, months, and days instantly.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What is the most common birthday? <span class="arr">▼</span></div><div class="fa">September 9th is the most common birthday in the United States, followed by September 19th and September 12th. The entire month of September is the most common birth month — a result of conception peaking during the December holiday season, roughly 9 months earlier.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What is the rarest birthday? <span class="arr">▼</span></div><div class="fa">February 29 (Leap Day) is the rarest birthday — it only occurs once every 4 years. December 25, January 1, December 24, and July 4 are also among the rarest birthdays due to hospital holiday scheduling practices.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What season was I born in? <span class="arr">▼</span></div><div class="fa">Northern Hemisphere: Winter (Dec 21–Mar 19), Spring (Mar 20–Jun 20), Summer (Jun 21–Sep 21), Autumn (Sep 22–Dec 20). Southern Hemisphere seasons are reversed. Enter your birth date above to see your birth season automatically.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What is a half birthday and when is mine? <span class="arr">▼</span></div><div class="fa">A half birthday falls exactly 6 months after your actual birthday. If your birthday is March 15, your half birthday is September 15. Half birthdays are popular for children born in summer whose school birthday falls during holidays. Add 6 months to your birth date to find yours.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">How many minutes until my birthday? <span class="arr">▼</span></div><div class="fa">Our live countdown shows days, hours, minutes, and seconds until your next birthday — updated every second. For total minutes, multiply the days remaining by 1,440 and add hours × 60 plus the minutes shown in the countdown.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">What element is my zodiac sign? <span class="arr">▼</span></div><div class="fa">Fire signs (Aries, Leo, Sagittarius) — passionate, energetic, bold. Earth signs (Taurus, Virgo, Capricorn) — practical, grounded, reliable. Air signs (Gemini, Libra, Aquarius) — intellectual, communicative, social. Water signs (Cancer, Scorpio, Pisces) — emotional, intuitive, empathetic.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">Are zodiac and astrology results accurate? <span class="arr">▼</span></div><div class="fa">Astrology, zodiac signs, numerology, and personality readings on this site are for entertainment and cultural interest only. There is no scientific consensus that birth date determines personality or future outcomes. These traditions have cultural and historical value but should not be used for serious life decisions.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">Is this birthday calculator free to use? <span class="arr">▼</span></div><div class="fa">Yes — completely free with no sign-up, no account, no app download, and no fees. All calculations run instantly in your browser. We earn a small affiliate commission on Amazon gift purchases, which helps keep the site free for everyone.</div></div>
+    <div class="faq"><div class="fq" onclick="toggleFaq(this)">Does this birthday calculator store my data? <span class="arr">▼</span></div><div class="fa">No. All calculations happen entirely in your browser — your birth date is never sent to any server, stored in a database, or shared with third parties. The only data we collect is standard anonymous website analytics. See our Privacy Policy for full details.</div></div>
   </div>
 
   <!-- DISCLAIMER -->
@@ -408,8 +417,22 @@ footer a:hover{color:#fff}
 </div>
 
 <footer>
-  <p>© 2026 BirthdayChecker.com &nbsp;·&nbsp; <a href="/privacy">Privacy Policy</a> &nbsp;·&nbsp; <a href="/terms">Terms of Service</a> &nbsp;·&nbsp; <a href="mailto:support@birthdaychecker.com">Contact</a></p>
-  <p style="margin-top:8px;opacity:.7">As an Amazon Associate we earn from qualifying purchases. All results are for entertainment purposes.</p>
+  <nav class="footer-links" aria-label="Footer navigation">
+    <a href="/">&#127874; Birthday Calculator</a>
+    <a href="#zodiac-section">Zodiac Signs</a>
+    <a href="#birthstones-section">Birthstones</a>
+    <a href="#generations-section">Generations</a>
+    <a href="#chinese-zodiac-section">Chinese Zodiac</a>
+    <a href="#milestone-section">Milestones</a>
+    <a href="#rare-birthdays-section">Rare Birthdays</a>
+    <a href="#gift-section">Gift Ideas</a>
+    <a href="#faq-section">FAQ</a>
+    <a href="/privacy">Privacy Policy</a>
+    <a href="/terms">Terms of Service</a>
+    <a href="mailto:support@birthdaychecker.com">Contact</a>
+  </nav>
+  <p>&#169; 2026 BirthdayChecker.com &nbsp;&middot;&nbsp; Free Birthday Calculator &#8212; Age, Zodiac &amp; More</p>
+  <p style="margin-top:8px;opacity:.6;font-size:.78rem">As an Amazon Associate we earn from qualifying purchases. All zodiac results are for entertainment purposes only.</p>
 </footer>
 
 <script>
@@ -682,7 +705,7 @@ function lifePathNum(y,m,d){
 let cdTimer=null;
 window._bd=null;
 
-function calc(){
+function calc(e){if(e&&e.preventDefault)e.preventDefault();
   const v=document.getElementById('bd').value;
   const errEl=document.getElementById('err');
   if(!v){errEl.style.display='block';return;}
@@ -807,6 +830,14 @@ function calc(){
 
   // Store for share
   window._bd={y,m,d,ay,am,ad,dayBorn,zod,animal,stone,flower,gen,lp,totalDays};
+  var _shareUrl=buildShareUrl(y,m,d);
+  history.replaceState(null,"",_shareUrl);
+  var _shareText="🎂 My Birthday!\nBorn: "+MONTHS[m-1]+" "+ordinal(d)+", "+y+" ("+dayBorn+")\nAge: "+ay+" yrs | Zodiac: "+zod.n+" "+zod.s+"\n✨ Find yours → "+_shareUrl;
+  var _tw=document.getElementById("twitterShare");
+  var _wa=document.getElementById("whatsappShare");
+  if(_tw)_tw.href="https://twitter.com/intent/tweet?text="+encodeURIComponent(_shareText);
+  if(_wa)_wa.href="https://wa.me/?text="+encodeURIComponent(_shareText);
+  if(typeof gtag==="function")gtag("event","birthday_calculated",{birth_year:y,zodiac:zod.n});
 
   // Show
   const res=document.getElementById('results');
@@ -828,7 +859,7 @@ function faq(el){
 }
 
 // ── AMAZON GEO-ROUTING ───────────────────────────────────────────────────
-(function(){
+(function(){try{
   const CA_ZONES=/^America\/(Toronto|Vancouver|Edmonton|Winnipeg|Halifax|St_Johns|Moncton|Regina|Saskatoon|Whitehorse|Yellowknife|Iqaluit|Glace_Bay|Goose_Bay|Thunder_Bay|Nipigon|Rainy_River|Rankin_Inlet|Resolute|Cambridge_Bay|Inuvik|Dawson|Creston|Fort_Nelson|Dawson_Creek)$/;
   const tz=Intl.DateTimeFormat().resolvedOptions().timeZone||'';
   const isCA=CA_ZONES.test(tz);
@@ -838,6 +869,7 @@ function faq(el){
     a.href=`https://www.${domain}/s?k=${a.dataset.q}&tag=${tag}`;
   });
 })();
+}catch(e){}})();
 
 // Chinese zodiac table
 (function(){
@@ -867,6 +899,50 @@ function faq(el){
 
 // Set max date
 document.getElementById('bd').max=new Date().toISOString().split('T')[0];
+// ── URL PARAMETER AUTO-CALC (shareable links like ?d=1990-07-15) ─────────
+(function(){
+  try{
+    var params=new URLSearchParams(location.search);
+    var d=params.get('d');
+    if(d&&/^\d{4}-\d{2}-\d{2}$/.test(d)){
+      var inp=document.getElementById('bd');
+      if(inp){
+        inp.value=d;
+        var banner=document.getElementById('sharedBanner');
+        if(banner)banner.style.display='block';
+        setTimeout(function(){calc();},150);
+      }
+    }
+  }catch(e){}
+})();
+
+// ── SHARE HELPERS ─────────────────────────────────────────────────────────
+function buildShareUrl(y,m,d){
+  return location.origin+location.pathname+'?d='+y+'-'+String(m).padStart(2,'0')+'-'+String(d).padStart(2,'0');
+}
+
+function copyStats(){
+  var D=window._bd;
+  if(!D){alert('Calculate first!');return;}
+  var url=buildShareUrl(D.y,D.m,D.d);
+  var txt='🎂 My Birthday Stats — BirthdayChecker.com\n\nBorn: '+MONTHS[D.m-1]+' '+ordinal(D.d)+', '+D.y+' ('+D.dayBorn+')\nAge: '+D.ay+' years, '+D.am+' months, '+D.ad+' days\nZodiac: '+D.zod.n+' '+D.zod.s+'\nChinese Zodiac: Year of the '+D.animal+'\nBirthstone: '+D.stone+'\n\n✨ Find yours free → '+url;
+  navigator.clipboard.writeText(txt).then(function(){alert('Copied! Share it anywhere 🎉');}).catch(function(){var t=document.createElement('textarea');t.value=txt;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove();alert('Copied! 🎉');});
+  if(typeof gtag==='function')gtag('event','share',{method:'clipboard'});
+}
+
+function copyLink(){
+  var D=window._bd;
+  if(!D){alert('Calculate first!');return;}
+  var url=buildShareUrl(D.y,D.m,D.d);
+  navigator.clipboard.writeText(url).then(function(){alert('Link copied! Anyone who opens it will see your birthday facts 🎉');}).catch(function(){var t=document.createElement('textarea');t.value=url;document.body.appendChild(t);t.select();document.execCommand('copy');t.remove();alert('Link copied! 🎉');});
+  if(typeof gtag==='function')gtag('event','share',{method:'link'});
+}
+
+function toggleFaq(el){
+  var isOpen=el.classList.contains('open');
+  document.querySelectorAll('.fq.open').forEach(function(q){q.classList.remove('open');q.nextElementSibling.classList.remove('open');q.setAttribute('aria-expanded','false');});
+  if(!isOpen){el.classList.add('open');el.nextElementSibling.classList.add('open');el.setAttribute('aria-expanded','true');}
+}
 document.getElementById('bd').addEventListener('keydown',e=>{if(e.key==='Enter')calc();});
 </script>
 </body>
